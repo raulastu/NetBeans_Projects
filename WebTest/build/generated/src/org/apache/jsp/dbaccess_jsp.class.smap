@@ -1,0 +1,19 @@
+SMAP
+dbaccess_jsp.java
+JSP
+*S JSP
+*F
++ 0 dbaccess.jsp
+dbaccess.jsp
+*L
+1,8:61
+8:97,7
+10,4:70
+13:117,17
+14,2:134
+15:75
+16:165,12
+17:177,7
+18:184,3
+19,2:78
+*E

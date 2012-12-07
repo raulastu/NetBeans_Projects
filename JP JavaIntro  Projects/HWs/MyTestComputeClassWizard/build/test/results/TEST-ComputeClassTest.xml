@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" name="ComputeClassTest" tests="4" time="0.032">
+  <properties>
+    <property name="libs.jaxws20.classpath" value="C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\activation.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\FastInfoset.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\http.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jaxb-api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jaxb-impl.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jaxb-xjc.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jaxws-api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jaxws-rt.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jaxws-tools.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jsr173_api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jsr181-api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jsr250-api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\saaj-api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\saaj-impl.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\sjsxp.jar"></property>
+    <property name="default.javac.source" value="1.6"></property>
+    <property name="file.encoding.pkg" value="sun.io"></property>
+    <property name="javac.source" value="1.6"></property>
+    <property name="Env-TMP" value="C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp"></property>
+    <property name="libs.jaxrpc16.src" value=""></property>
+    <property name="netbeans.system_http_proxy" value="DIRECT"></property>
+    <property name="java.home" value="C:\Archivos de programa\Java\jdk1.6.0\jre"></property>
+    <property name="test.src.dir" value="test"></property>
+    <property name="javadoc.version" value="false"></property>
+    <property name="Env-USERNAME" value="Administrado"></property>
+    <property name="env-userdomain" value="RC"></property>
+    <property name="env-perl5lib" value="E:\oracle\product\10.2.0\db_2\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_2\perl\5.8.3\lib;E:\oracle\product\10.2.0\db_2\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_2\perl\site\5.8.3;E:\oracle\product\10.2.0\db_2\perl\site\5.8.3\lib;E:\oracle\product\10.2.0\db_2\sysman\admin\scripts;"></property>
+    <property name="libs.CopyLibs.classpath" value="C:\Archivos de programa\netbeans-5.5\ide7\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar"></property>
+    <property name="libs.JAVADB_DRIVER_LABEL.classpath" value="C:\Sun\SDK\javadb\lib\derby.jar;C:\Sun\SDK\javadb\lib\derbyclient.jar;C:\Sun\SDK\javadb\lib\derbynet.jar"></property>
+    <property name="java.endorsed.dirs" value="C:\Archivos de programa\Java\jdk1.6.0\jre\lib\endorsed"></property>
+    <property name="src.dir" value="src"></property>
+    <property name="nbplatform.default.harness.dir" value="C:\Archivos de programa\netbeans-5.5/harness"></property>
+    <property name="Env-COMPUTERNAME" value="RC"></property>
+    <property name="env-homedrive" value="C:"></property>
+    <property name="netbeans.hash.code" value="unique=NB_PROF1262516538"></property>
+    <property name="build.sysclasspath" value="ignore"></property>
+    <property name="have.sources" value="true"></property>
+    <property name="libs.JAVADB_DRIVER_LABEL.src" value=""></property>
+    <property name="sun.os.patch.level" value="Service Pack 2"></property>
+    <property name="java.vendor.url" value="http://java.sun.com/"></property>
+    <property name="java.version" value="1.6.0"></property>
+    <property name="Env-SystemDrive" value="C:"></property>
+    <property name="libs.jsf.classpath" value="C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\jsf\commons-beanutils.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\jsf\commons-collections.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\jsf\commons-digester.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\jsf\commons-logging.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\jsf\jsf-api.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\jsf\jsf-impl.jar"></property>
+    <property name="Env-ComSpec" value="C:\WINDOWS\system32\cmd.exe"></property>
+    <property name="Env-CLIENTNAME" value="Console"></property>
+    <property name="javac.debug" value="true"></property>
+    <property name="org.openide.major.version" value="IDE/1"></property>
+    <property name="run.classpath" value=":build/classes"></property>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"></property>
+    <property name="netbeans.autoupdate.variant" value=""></property>
+    <property name="wsclientuptodate.classpath" value="C:\Archivos de programa\netbeans-5.5\enterprise3\ant\extra\wsclientuptodate.jar"></property>
+    <property name="libs.absolutelayout.javadoc" value=""></property>
+    <property name="netbeans.buildnumber" value="200612070100"></property>
+    <property name="env-processor_architecture" value="x86"></property>
+    <property name="manifest.file" value="manifest.mf"></property>
+    <property name="user.name" value="Administrado"></property>
+    <property name="manifest.available+main.class+mkdist.available" value="true"></property>
+    <property name="env-temp" value="C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp"></property>
+    <property name="Env-PROCESSOR_REVISION" value="5f02"></property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+    <property name="sun.jnu.encoding" value="Cp1252"></property>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+    <property name="env-logonserver" value="\\RC"></property>
+    <property name="jdk.home" value="C:\Archivos de programa\Java\jdk1.6.0"></property>
+    <property name="jspc.classpath" value="C:\Archivos de programa\netbeans-5.5\ide7\ant\lib\ant.jar:C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\servlet2.5-jsp2.1-api.jar:${j2ee.platform.classpath}:C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\glassfish-jspparser.jar:C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\glassfish-logging.jar:C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\commons-logging-1.0.4.jar"></property>
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true"></property>
+    <property name="netbeans.autoupdate.version" value="1.20"></property>
+    <property name="org.openide.TopManager" value="org.netbeans.core.NonGui"></property>
+    <property name="netbeans.dirs" value="C:\Archivos de programa\netbeans-5.5\nb5.5;C:\Archivos de programa\netbeans-5.5\ide7;C:\Archivos de programa\netbeans-5.5\enterprise3;C:\Archivos de programa\netbeans-5.5\harness;C:\Archivos de programa\netbeans-5.5\profiler1"></property>
+    <property name="java.specification.name" value="Java Platform API Specification"></property>
+    <property name="javadoc.author" value="false"></property>
+    <property name="user.timezone" value=""></property>
+    <property name="netbeans.system_http_non_proxy_hosts" value=""></property>
+    <property name="manifest.available" value="true"></property>
+    <property name="libs.junit.javadoc" value="C:\Archivos de programa\netbeans-5.5\ide7\docs\junit-3.8.1-api.zip"></property>
+    <property name="org.openide.specification.version" value="6.2"></property>
+    <property name="path.separator" value=";"></property>
+    <property name="Env-LOGONSERVER" value="\\RC"></property>
+    <property name="Env-PERL5LIB" value="E:\oracle\product\10.2.0\db_2\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_2\perl\5.8.3\lib;E:\oracle\product\10.2.0\db_2\perl\5.8.3\lib\MSWin32-x86;E:\oracle\product\10.2.0\db_2\perl\site\5.8.3;E:\oracle\product\10.2.0\db_2\perl\site\5.8.3\lib;E:\oracle\product\10.2.0\db_2\sysman\admin\scripts;"></property>
+    <property name="libs.absolutelayout.classpath" value="C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\AbsoluteLayout.jar"></property>
+    <property name="libs.jaxrpc16.classpath" value="C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\activation.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\FastInfoset.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\jax-qname.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\jaxp-api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\jaxrpc-api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\jaxrpc-impl.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\jaxrpc-spi.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\jsr173_api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\mail.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\relaxngDatatype.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\saaj-api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\saaj-impl.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxrpc16\xsdlib.jar"></property>
+    <property name="Env-Path" value="E:\oracle\product\10.2.0\db_1\bin;E:\oracle\product\10.2.0\db_2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Archivos de programa\Microsoft SQL Server\80\Tools\BINN"></property>
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense"></property>
+    <property name="file.encoding" value="Cp1252"></property>
+    <property name="dist.javadoc.dir" value="dist/javadoc"></property>
+    <property name="env-programfiles" value="C:\Archivos de programa"></property>
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|rC"></property>
+    <property name="libs.junit.src" value=""></property>
+    <property name="env-systemroot" value="C:\WINDOWS"></property>
+    <property name="ant.file" value="E:\NB Projects\HWs\MyTestComputeClassWizard\build.xml"></property>
+    <property name="copyfiles.classpath" value="C:\Archivos de programa\netbeans-5.5\enterprise3\ant\extra\copyfiles.jar"></property>
+    <property name="netbeans.autoupdate.language" value="es"></property>
+    <property name="Env-windir" value="C:\WINDOWS"></property>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\"></property>
+    <property name="env-processor_identifier" value="x86 Family 15 Model 95 Stepping 2, AuthenticAMD"></property>
+    <property name="build.test.results.dir" value="build/test/results"></property>
+    <property name="user.language" value="es"></property>
+    <property name="libs.jaxws20.src" value=""></property>
+    <property name="line.separator" value="
+"></property>
+    <property name="apple.laf.useScreenMenuBar" value="true"></property>
+    <property name="libs.absolutelayout.src" value=""></property>
+    <property name="javac.compilerargs" value=""></property>
+    <property name="netbeans.osenv.nullsep" value="true"></property>
+    <property name="env-tmp" value="C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp"></property>
+    <property name="Env-SystemRoot" value="C:\WINDOWS"></property>
+    <property name="jar.compress" value="false"></property>
+    <property name="Env-FP_NO_HOST_CHECK" value="NO"></property>
+    <property name="java.vm.info" value="mixed mode, sharing"></property>
+    <property name="env-os" value="Windows_NT"></property>
+    <property name="javadoc.private" value="false"></property>
+    <property name="sun.desktop" value="windows"></property>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+    <property name="build.test.classes.dir" value="build/test/classes"></property>
+    <property name="env-systemdrive" value="C:"></property>
+    <property name="netbeans.dynamic.classpath" value="C:\Archivos de programa\netbeans-5.5\platform6\core\core.jar;C:\Archivos de programa\netbeans-5.5\platform6\core\org-openide-filesystems.jar;C:\Archivos de programa\netbeans-5.5\platform6\core\locale\core_ja.jar;C:\Archivos de programa\netbeans-5.5\platform6\core\locale\core_pt_BR.jar;C:\Archivos de programa\netbeans-5.5\platform6\core\locale\core_zh_CN.jar;C:\Archivos de programa\netbeans-5.5\platform6\core\locale\org-openide-filesystems_ja.jar;C:\Archivos de programa\netbeans-5.5\platform6\core\locale\org-openide-filesystems_pt_BR.jar;C:\Archivos de programa\netbeans-5.5\platform6\core\locale\org-openide-filesystems_zh_CN.jar;C:\Archivos de programa\netbeans-5.5\nb5.5\core\org-netbeans-upgrader.jar;C:\Archivos de programa\netbeans-5.5\nb5.5\core\locale\core_nb.jar;C:\Archivos de programa\netbeans-5.5\nb5.5\core\locale\core_nb_ja.jar;C:\Archivos de programa\netbeans-5.5\nb5.5\core\locale\core_nb_pt_BR.jar;C:\Archivos de programa\netbeans-5.5\nb5.5\core\locale\core_nb_zh_CN.jar;C:\Archivos de programa\netbeans-5.5\nb5.5\core\locale\org-netbeans-upgrader_ja.jar;C:\Archivos de programa\netbeans-5.5\nb5.5\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Archivos de programa\netbeans-5.5\nb5.5\core\locale\org-netbeans-upgrader_zh_CN.jar;C:\Archivos de programa\netbeans-5.5\ide7\core\org-netbeans-modules-utilities-cli.jar"></property>
+    <property name="manifest.available+main.class" value="true"></property>
+    <property name="platform.active" value="default_platform"></property>
+    <property name="Env-CommonProgramFiles" value="C:\Archivos de programa\Archivos comunes"></property>
+    <property name="env-appdata" value="C:\Documents and Settings\Administrado\Datos de programa"></property>
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|rC"></property>
+    <property name="libs.jsf.src" value=""></property>
+    <property name="Env-PROCESSOR_LEVEL" value="15"></property>
+    <property name="netbeans.autoupdate.country" value="PE"></property>
+    <property name="javadoc.encoding" value=""></property>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+    <property name="dist.jar" value="dist/MyTestComputeClassWizard.jar"></property>
+    <property name="meta.inf.dir" value="src/META-INF"></property>
+    <property name="libs.struts.classpath" value="C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\struts\antlr.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\struts\commons-beanutils.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\struts\commons-digester.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\struts\commons-fileupload.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\struts\commons-logging.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\struts\commons-validator.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\struts\jakarta-oro.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\struts\struts.jar"></property>
+    <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+    <property name="netbeans.home" value="C:\Archivos de programa\netbeans-5.5\platform6"></property>
+    <property name="javadoc.nonavbar" value="false"></property>
+    <property name="user.properties.file" value="C:\Documents and Settings\Administrado\.netbeans\5.5\build.properties"></property>
+    <property name="libs.toplink.classpath" value="C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\toplink\toplink-essentials.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\toplink\toplink-essentials-agent.jar"></property>
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade"></property>
+    <property name="env-allusersprofile" value="C:\Documents and Settings\All Users"></property>
+    <property name="https.proxyPort" value=""></property>
+    <property name="env-windir" value="C:\WINDOWS"></property>
+    <property name="Env-APPDATA" value="C:\Documents and Settings\Administrado\Datos de programa"></property>
+    <property name="build.generated.dir" value="build/generated"></property>
+    <property name="netbeans.home+have.tests" value="true"></property>
+    <property name="env-clientname" value="Console"></property>
+    <property name="os.name" value="Windows XP"></property>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="run.test.classpath" value=":build/classes:C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\junit-3.8.1.jar:build/test/classes"></property>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+    <property name="libs.CopyLibs.src" value=""></property>
+    <property name="env-number_of_processors" value="1"></property>
+    <property name="org.openide.version" value="deprecated"></property>
+    <property name="libs.junit.classpath" value="C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\junit-3.8.1.jar"></property>
+    <property name="java.library.path" value="C:\Archivos de programa\Java\jdk1.6.0\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\10.2.0\db_1\bin;E:\oracle\product\10.2.0\db_2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Archivos de programa\Microsoft SQL Server\80\Tools\BINN"></property>
+    <property name="env-homepath" value="\Documents and Settings\Administrado"></property>
+    <property name="env-pathext" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"></property>
+    <property name="libs.toplink.javadoc" value=""></property>
+    <property name="env-processor_revision" value="5f02"></property>
+    <property name="ant.java.version" value="1.5"></property>
+    <property name="java.class.version" value="50.0"></property>
+    <property name="basedir" value="E:\NB Projects\HWs\MyTestComputeClassWizard"></property>
+    <property name="javadoc.noindex" value="false"></property>
+    <property name="sun.awt.exception.handler" value="org.netbeans.core.NbErrorManager$AWTHandler"></property>
+    <property name="javac.test.classpath" value=":build/classes:C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\junit-3.8.1.jar"></property>
+    <property name="Env-USERDOMAIN" value="RC"></property>
+    <property name="ant.home" value="C:\Archivos de programa\netbeans-5.5\ide7\ant"></property>
+    <property name="javadoc.splitindex" value="true"></property>
+    <property name="Env-TEMP" value="C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp"></property>
+    <property name="libs.toplink.src" value=""></property>
+    <property name="javadoc.preview" value="true"></property>
+    <property name="libs.CopyLibs.javadoc" value=""></property>
+    <property name="libs.jaxws20.javadoc" value=""></property>
+    <property name="ant.file.MyTestComputeClassWizard" value="E:\NB Projects\HWs\MyTestComputeClassWizard\build.xml"></property>
+    <property name="env-sessionname" value="Console"></property>
+    <property name="Env-PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"></property>
+    <property name="build.dir" value="build"></property>
+    <property name="sun.boot.library.path" value="C:\Archivos de programa\Java\jdk1.6.0\jre\bin"></property>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+    <property name="user.variant" value=""></property>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+    <property name="Env-SESSIONNAME" value="Console"></property>
+    <property name="libs.jaxb20.classpath" value="C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\activation.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jaxb-api.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jaxb-impl.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jaxb-xjc.jar;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\jaxws20\jsr173_api.jar"></property>
+    <property name="javadoc.windowtitle" value=""></property>
+    <property name="http.proxyPort" value=""></property>
+    <property name="env-computername" value="RC"></property>
+    <property name="https.proxyHost" value=""></property>
+    <property name="netbeans.osenv" value="C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\nbenv9"></property>
+    <property name="libs.jstl11.javadoc" value="C:\Archivos de programa\netbeans-5.5\enterprise3\docs\javaee5-doc-api.zip"></property>
+    <property name="run.jvmargs" value=""></property>
+    <property name="build.compiler.emacs" value="true"></property>
+    <property name="libs.jstl11.src" value=""></property>
+    <property name="ant.project.name" value="MyTestComputeClassWizard"></property>
+    <property name="libs.swing-layout.classpath" value="C:\Archivos de programa\netbeans-5.5\platform6\modules\ext\swing-layout-1.0.jar"></property>
+    <property name="env-commonprogramfiles" value="C:\Archivos de programa\Archivos comunes"></property>
+    <property name="java.vm.specification.version" value="1.0"></property>
+    <property name="work.dir" value="E:\NB Projects\HWs\MyTestComputeClassWizard"></property>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+    <property name="javadoc.use" value="true"></property>
+    <property name="sun.cpu.isalist" value=""></property>
+    <property name="java.ext.dirs" value="C:\Archivos de programa\Java\jdk1.6.0\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"></property>
+    <property name="os.version" value="5.1"></property>
+    <property name="libs.jstl11.classpath" value="C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\standard.jar;C:\Archivos de programa\netbeans-5.5\enterprise3\modules\ext\jstl.jar"></property>
+    <property name="user.home" value="C:\Documents and Settings\Administrado"></property>
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser"></property>
+    <property name="javax.xml.parsers.DocumentBuilderFactory" value="org.netbeans.core.startup.DOMFactoryImpl"></property>
+    <property name="Env-ALLUSERSPROFILE" value="C:\Documents and Settings\All Users"></property>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."></property>
+    <property name="libs.struts.src" value=""></property>
+    <property name="Env-PROCESSOR_IDENTIFIER" value="x86 Family 15 Model 95 Stepping 2, AuthenticAMD"></property>
+    <property name="env-comspec" value="C:\WINDOWS\system32\cmd.exe"></property>
+    <property name="user.dir" value="E:\NB Projects\HWs\MyTestComputeClassWizard"></property>
+    <property name="org.openide.TopManager.GUI" value="true"></property>
+    <property name="libs.jaxb20.javadoc" value=""></property>
+    <property name="env-username" value="Administrado"></property>
+    <property name="libs.jsf.javadoc" value="C:\Archivos de programa\netbeans-5.5\enterprise3\docs\javaee5-doc-api.zip"></property>
+    <property name="Env-NUMBER_OF_PROCESSORS" value="1"></property>
+    <property name="application.args" value=""></property>
+    <property name="Env-HOMEPATH" value="\Documents and Settings\Administrado"></property>
+    <property name="env-path" value="E:\oracle\product\10.2.0\db_1\bin;E:\oracle\product\10.2.0\db_2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Archivos de programa\Microsoft SQL Server\80\Tools\BINN"></property>
+    <property name="sun.cpu.endian" value="little"></property>
+    <property name="libs.jaxb20.src" value=""></property>
+    <property name="Env-HOMEDRIVE" value="C:"></property>
+    <property name="java.vm.version" value="1.6.0-b105"></property>
+    <property name="java.class.path" value="E:\NB Projects\HWs\MyTestComputeClassWizard\build\classes;C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\junit-3.8.1.jar;E:\NB Projects\HWs\MyTestComputeClassWizard\build\test\classes;C:\Archivos de programa\netbeans-5.5\ide7\ant\lib\ant-launcher.jar;C:\Archivos de programa\netbeans-5.5\ide7\ant\lib\ant.jar;C:\Archivos de programa\netbeans-5.5\ide7\ant\lib\ant-junit.jar"></property>
+    <property name="javax.xml.parsers.SAXParserFactory" value="org.netbeans.core.startup.SAXFactoryImpl"></property>
+    <property name="os.arch" value="x86"></property>
+    <property name="javac.deprecation" value="false"></property>
+    <property name="http.proxyHost" value=""></property>
+    <property name="nbplatform.default.netbeans.dest.dir" value="C:\Archivos de programa\netbeans-5.5"></property>
+    <property name="build.classes.excludes" value="**/*.java,**/*.form"></property>
+    <property name="dist.dir" value="dist"></property>
+    <property name="netbeans.user" value="C:\Documents and Settings\Administrado\.netbeans\5.5"></property>
+    <property name="debug.classpath" value=":build/classes"></property>
+    <property name="Env-OS" value="Windows_NT"></property>
+    <property name="Env-ProgramFiles" value="C:\Archivos de programa"></property>
+    <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+    <property name="env-fp_no_host_check" value="NO"></property>
+    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value=""></property>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="file.separator" value="\"></property>
+    <property name="env-processor_level" value="15"></property>
+    <property name="java.runtime.version" value="1.6.0-b105"></property>
+    <property name="sun.boot.class.path" value="C:\Archivos de programa\Java\jdk1.6.0\jre\lib\resources.jar;C:\Archivos de programa\Java\jdk1.6.0\jre\lib\rt.jar;C:\Archivos de programa\Java\jdk1.6.0\jre\lib\sunrsasign.jar;C:\Archivos de programa\Java\jdk1.6.0\jre\lib\jsse.jar;C:\Archivos de programa\Java\jdk1.6.0\jre\lib\jce.jar;C:\Archivos de programa\Java\jdk1.6.0\jre\lib\charsets.jar;C:\Archivos de programa\Java\jdk1.6.0\jre\classes"></property>
+    <property name="env-userprofile" value="C:\Documents and Settings\Administrado"></property>
+    <property name="debug.test.classpath" value=":build/classes:C:\Archivos de programa\netbeans-5.5\ide7\modules\ext\junit-3.8.1.jar:build/test/classes"></property>
+    <property name="have.tests" value="true"></property>
+    <property name="main.class" value="TestComputeClassWizard"></property>
+    <property name="user.country" value="PE"></property>
+    <property name="javadoc.notree" value="false"></property>
+    <property name="Env-USERPROFILE" value="C:\Documents and Settings\Administrado"></property>
+    <property name="Env-PROCESSOR_ARCHITECTURE" value="x86"></property>
+    <property name="libs.struts.javadoc" value="C:\Archivos de programa\netbeans-5.5\enterprise3\docs\struts-1.2.9-javadoc.zip"></property>
+    <property name="javadoc.additionalparam" value=""></property>
+    <property name="default.javac.target" value="1.6"></property>
+    <property name="javac.classpath" value=""></property>
+    <property name="build.classes.dir" value="build/classes"></property>
+    <property name="libs.swing-layout.javadoc" value="C:\Archivos de programa\netbeans-5.5\platform6\docs\swing-layout-1.0-doc.zip"></property>
+    <property name="libs.swing-layout.src" value=""></property>
+    <property name="java.vendor" value="Sun Microsystems Inc."></property>
+    <property name="env-san_dir" value="C:\Archivos de programa\SiSoftware\SiSoftware Sandra Lite XI.SP2"></property>
+    <property name="javac.target" value="1.6"></property>
+    <property name="ant.file.MyTestComputeClassWizard-impl" value="E:\NB Projects\HWs\MyTestComputeClassWizard\nbproject\build-impl.xml"></property>
+    <property name="Env-SAN_DIR" value="C:\Archivos de programa\SiSoftware\SiSoftware Sandra Lite XI.SP2"></property>
+    <property name="libs.jaxrpc16.javadoc" value=""></property>
+    <property name="java.specification.version" value="1.6"></property>
+    <property name="sun.arch.data.model" value="32"></property>
+  </properties>
+  <testcase classname="ComputeClassTest" name="testAdd" time="0.0"></testcase>
+  <testcase classname="ComputeClassTest" name="testMultiply" time="0.0"></testcase>
+  <testcase classname="ComputeClassTest" name="testSubtract" time="0.0"></testcase>
+  <testcase classname="ComputeClassTest" name="testAddAndMultiplyBy3" time="0.0"></testcase>
+  <system-out><![CDATA[add
+multiply
+subtract
+addAndMultiplyBy3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

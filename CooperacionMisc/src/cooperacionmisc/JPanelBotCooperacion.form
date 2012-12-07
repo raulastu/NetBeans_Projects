@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+        <BevelBorder/>
+      </Border>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButtonEmpresas" alignment="0" pref="155" max="32767" attributes="0"/>
+                  <Component id="jSeparator2" alignment="0" pref="155" max="32767" attributes="1"/>
+                  <Component id="jButtonBuscHor" alignment="0" pref="155" max="32767" attributes="0"/>
+                  <Component id="jButtonAmbos" alignment="0" pref="155" max="32767" attributes="0"/>
+                  <Component id="jButtonBuscVert" alignment="0" pref="155" max="32767" attributes="0"/>
+                  <Component id="jButtonConfBus" alignment="0" pref="155" max="32767" attributes="1"/>
+                  <Component id="jLabel1" alignment="0" pref="155" max="32767" attributes="0"/>
+                  <Component id="jButtonOportunidades" alignment="0" pref="155" max="32767" attributes="0"/>
+                  <Component id="jButtonAmenazas" alignment="0" pref="155" max="32767" attributes="0"/>
+                  <Component id="jLabel2" alignment="0" pref="155" max="32767" attributes="0"/>
+                  <Component id="jButtonConfianza" alignment="0" pref="155" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Component id="jButtonEmpresas" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButtonConfBus" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="jButtonBuscVert" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jButtonBuscHor" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jButtonAmbos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator2" min="-2" pref="2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButtonOportunidades" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jButtonAmenazas" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButtonConfianza" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButtonBuscVert">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vertical"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonBuscHor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Horizontal"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonAmbos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seleccion de Socios"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar Cooperar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonConfBus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Configurar busqueda"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Matrices"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonOportunidades">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Oportunidades"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonAmenazas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Amenazas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonEmpresas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Empresas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonConfianza">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confianza"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

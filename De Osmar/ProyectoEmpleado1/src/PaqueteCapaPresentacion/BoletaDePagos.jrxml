@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<parameter name="pempleado_id" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT
+     empleado.`empleado_id` AS empleado_empleado_id,
+     empleado.`apellidos` AS empleado_apellidos,
+     empleado.`nombres` AS empleado_nombres,
+     empleado.`sucursal_id` AS empleado_sucursal_id,
+     empleado.`correo` AS empleado_correo,
+     empleado.`sindicato_id` AS empleado_sindicato_id,
+     empleado.`sueldo_basico` AS empleado_sueldo_basico,
+     empleado.`bonoAdicional` AS empleado_bonoAdicional,
+     empleado.`sueldoTotal` AS empleado_sueldoTotal,
+     empleado.`descuentoAFP` AS empleado_descuentoAFP,
+     empleado.`descuentoSindical` AS empleado_descuentoSindical,
+     empleado.`descuentoTotal` AS empleado_descuentoTotal,
+     empleado.`sueldoNeto` AS empleado_sueldoNeto
+FROM
+     `empleado` empleado
+
+WHERE
+	empleado.`empleado_id` = $P{pempleado_id}
+]]>
+	</queryString>
+	<field name="empleado_empleado_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_apellidos" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_nombres" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_sucursal_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_correo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_sindicato_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_sueldo_basico" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_bonoAdicional" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_sueldoTotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_descuentoAFP" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_descuentoSindical" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_descuentoTotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empleado_sueldoNeto" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="89" y="18" width="321" height="47"/>
+				<textElement>
+					<font fontName="Arial Black" size="30"/>
+				</textElement>
+				<text><![CDATA[Boletas De Pagos]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="28" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="416" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="550" height="403" forecolor="#000000" backcolor="#FFFFCC"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Double"/>
+					<topPen lineWidth="1.0" lineStyle="Double"/>
+					<leftPen lineWidth="1.0" lineStyle="Double"/>
+					<bottomPen lineWidth="1.0" lineStyle="Double"/>
+					<rightPen lineWidth="1.0" lineStyle="Double"/>
+				</box>
+				<staticText>
+					<reportElement x="21" y="33" width="68" height="17"/>
+					<textElement/>
+					<text><![CDATA[Empleado_id :]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="104" y="33" width="67" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.Integer"><![CDATA[$F{empleado_empleado_id}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="18" y="75" width="71" height="16"/>
+					<textElement/>
+					<text><![CDATA[Apellidos :]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="104" y="75" width="85" height="16"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{empleado_apellidos}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="104" y="109" width="85" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{empleado_nombres}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="18" y="109" width="71" height="20"/>
+					<textElement/>
+					<text><![CDATA[Nombres]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="397" y="33" width="100" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.Integer"><![CDATA[$F{empleado_sucursal_id}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="310" y="33" width="68" height="17"/>
+					<textElement/>
+					<text><![CDATA[Sucursal :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="315" y="68" width="63" height="20"/>
+					<textElement/>
+					<text><![CDATA[Fecha  :]]></text>
+				</staticText>
+				<frame>
+					<reportElement mode="Opaque" x="17" y="156" width="513" height="47" backcolor="#FF9966"/>
+					<box>
+						<pen lineWidth="1.0" lineStyle="Double"/>
+						<topPen lineWidth="1.0" lineStyle="Double"/>
+						<leftPen lineWidth="1.0" lineStyle="Double"/>
+						<bottomPen lineWidth="1.0" lineStyle="Double"/>
+						<rightPen lineWidth="1.0" lineStyle="Double"/>
+					</box>
+					<staticText>
+						<reportElement x="22" y="14" width="100" height="20"/>
+						<textElement>
+							<font fontName="Arial Black" size="14"/>
+						</textElement>
+						<text><![CDATA[Ingresos]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="361" y="14" width="115" height="20"/>
+						<textElement>
+							<font fontName="Arial Black" size="14"/>
+						</textElement>
+						<text><![CDATA[Egresos]]></text>
+					</staticText>
+				</frame>
+				<staticText>
+					<reportElement x="24" y="226" width="100" height="20"/>
+					<textElement/>
+					<text><![CDATA[Sueldo Basico :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="25" y="271" width="100" height="20"/>
+					<textElement/>
+					<text><![CDATA[Bono Adicional :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="25" y="313" width="100" height="20"/>
+					<textElement/>
+					<text><![CDATA[Sueldo Total :]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="139" y="226" width="100" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.Double"><![CDATA[$F{empleado_sueldo_basico}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="139" y="271" width="100" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.Double"><![CDATA[$F{empleado_bonoAdicional}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="139" y="313" width="100" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.Double"><![CDATA[$F{empleado_sueldoTotal}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="308" y="226" width="100" height="20"/>
+					<textElement/>
+					<text><![CDATA[Dscto AFP :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="307" y="265" width="100" height="20"/>
+					<textElement/>
+					<text><![CDATA[Dscto Sindical :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="311" y="309" width="100" height="20"/>
+					<textElement/>
+					<text><![CDATA[Dscto Total :]]></text>
+				</staticText>
+				<frame>
+					<reportElement mode="Opaque" x="160" y="348" width="189" height="36" backcolor="#FFFFFF"/>
+					<box>
+						<pen lineWidth="1.0" lineStyle="Double"/>
+						<topPen lineWidth="1.0" lineStyle="Double"/>
+						<leftPen lineWidth="1.0" lineStyle="Double"/>
+						<bottomPen lineWidth="1.0" lineStyle="Double"/>
+						<rightPen lineWidth="1.0" lineStyle="Double"/>
+					</box>
+					<staticText>
+						<reportElement x="9" y="8" width="78" height="18"/>
+						<textElement>
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[Sueldo Neto :]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="89" y="8" width="79" height="20"/>
+						<textElement/>
+						<textFieldExpression class="java.lang.Double"><![CDATA[$F{empleado_sueldoNeto}]]></textFieldExpression>
+					</textField>
+				</frame>
+				<textField>
+					<reportElement x="411" y="226" width="100" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.Double"><![CDATA[$F{empleado_descuentoAFP}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="411" y="265" width="100" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.Double"><![CDATA[$F{empleado_descuentoSindical}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="411" y="309" width="100" height="20"/>
+					<textElement/>
+					<textFieldExpression class="java.lang.Double"><![CDATA[$F{empleado_descuentoTotal}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

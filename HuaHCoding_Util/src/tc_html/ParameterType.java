@@ -1,0 +1,7 @@
+package tc_html;
+
+public enum ParameterType {
+
+    STRING, INT, INTARRAY, STRINGARRAY, STRINGARRAY_PAREJAS, STRINGARRAY_MATRIX,
+    TWOSTRINGARRAY
+}

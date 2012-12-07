@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: rc.prolog.prologmodule
+OpenIDE-Module-Layer: rc/prolog/prologmodule/layer.xml
+OpenIDE-Module-Localizing-Bundle: rc/prolog/prologmodule/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
